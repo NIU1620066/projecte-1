@@ -3,5 +3,5 @@
 # ibus session bus with the below address.
 # If the IBUS_ADDRESS environment variable is set, it will
 # be used rather than this file.
-IBUS_ADDRESS=unix:path=/home/nilito/.cache/ibus/dbus-ytIUinvh,guid=ed1cd22cdd951790f747e80c6710e8b0
-IBUS_DAEMON_PID=2017
+IBUS_ADDRESS=unix:path=/home/nilito/.cache/ibus/dbus-InuRFKEw,guid=69bbb20a519be0a2c1229e8c671110f6
+IBUS_DAEMON_PID=2088

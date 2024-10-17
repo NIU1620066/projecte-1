@@ -2,12 +2,13 @@
 <application-state>
   <context id="">
     <application id="org.gnome.eog.desktop" score="0" last-seen="1728927736"/>
-    <application id="org.gnome.Settings.desktop" score="0" last-seen="1728927744"/>
+    <application id="org.gnome.Nautilus.desktop" score="51" last-seen="1729171146"/>
+    <application id="org.gnome.Settings.desktop" score="0" last-seen="1729171959"/>
     <application id="firefox_firefox.desktop" score="387" last-seen="1728927738"/>
+    <application id="org.gnome.Terminal.desktop" score="16655.75" last-seen="1729171742"/>
+    <application id="org.gnome.gedit.desktop" score="2859" last-seen="1729171947"/>
     <application id="yelp.desktop" score="0" last-seen="1728923558"/>
-    <application id="org.gnome.Terminal.desktop" score="16105.75" last-seen="1729162642"/>
-    <application id="org.gnome.Nautilus.desktop" score="50" last-seen="1729162642"/>
-    <application id="org.gnome.gedit.desktop" score="2830" last-seen="1728925396"/>
     <application id="org.gnome.TextEditor.desktop" score="1505" last-seen="1728927731"/>
+    <application id="apport-gtk.desktop" score="0" last-seen="1729171156"/>
   </context>
 </application-state>
