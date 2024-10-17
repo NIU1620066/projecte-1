@@ -1,0 +1,2413 @@
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+	   
+  
+
+		
+
+
+
+
+
+
+
+
+<!-- &#169 2019 Universitat Aut√≤noma de Barcelona -->
+<!DOCTYPE html>
+<html lang="ca" xml:lang="ca">
+<head>
+    <title>
+        Campus Virtual UAB
+    </title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="..." />
+    <meta name="keywords" content="..." />
+    <meta name="author" content="UAB - Universitat Aut√≤noma de Barcelona" />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="img/simbol.png">
+    <link rel="preload" href="font/Mona-Sans.woff2" as="font" type="font/woff2" crossorigin>
+	<link rel="preload" href="font/Hubot-Sans.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/campus-virtual.css" />
+    <noscript>
+        <link href="../css/noscript.css" rel="stylesheet">
+    </noscript>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script defer="defer" src="js/utils.min.js"></script>
+	
+    <script defer="defer" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+    <script defer="defer" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/additional-methods.min.js"></script>
+    
+</head>
+
+<body>
+    <!-- # Estructura: HEADER -->
+    <header>
+        <!-- # Accessibilitat: ACCESSOS DIRECTES -->
+        <div id="sr-kw-only">
+            <a href="#contingut">VÈs al contingut principal</a>
+        </div>
+        <!-- # Estructura: HEADER: Header Top -->
+        <div class="capcal-eines">
+            <div class="container">
+                <div class="row">
+                    <!-- # Logotip: UAB -->
+                    <div class="col-auto logo-uab">
+                        <a href="https://www.uab.cat" target="_blank">
+                            Universitat Aut√≤noma de Barcelona</a>
+                    </div>
+                    <!-- # Funcionalitat: Eines -->
+                    <div class="col eines">
+                        
+                        <div class="eina-notificacions" role="alert"> <!-- Role alert nom√©s quan hi ha notificacions noves -->
+                            <a href="notificacions.jsp">
+                                <span class="sr-only">Notificacions</span>
+                                <svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona notificacions">
+                                    <use href="img/icones.svg#icona-notificacions"></use>
+                                </svg>
+                                
+                                
+                                    <span class="sr-only">Hi ha</span>
+                                    <span class="numero">2</span>
+                                    <span class="sr-only">notificacions noves</span>
+                                
+                                
+                                
+                            </a>
+                        </div>
+                        <!-- # Funcionalitat: Eina de selecci√≥ d'idioma -->
+                        <div class="eina-idioma">
+                            
+                                
+                                
+                                
+                                    
+                                    <button 
+                                        id="eina-idioma-obre" 
+                                        class="eina-obre" 
+                                        data-component="dropdown"
+                                        data-target="eina-idioma-opcions" >
+                                        <span class="sr-only">???idioma_seleccionat???:</span>
+                                        Catal&agrave;
+                                        <svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona dropdown">
+                                            <use href="img/icones.svg#icona-dropdown"></use>
+                                        </svg>
+                                    </button>                                    
+                                
+                            
+
+                            <ul id="eina-idioma-opcions" class="desplegable" aria-hidden="true">
+                                <li data-item>
+                                    <a class="desplegable-item" href="?changeLocaleTo=es" lang="es" data-focus>
+                                        Espa&ntilde;ol</a>
+                                </li>
+                                <li data-item>
+                                    <a class="desplegable-item" href="?changeLocaleTo=en" lang="en" data-focus>
+                                        English</a>
+                                </li>
+                                <li data-item>
+                                    <a class="desplegable-item" href="?changeLocaleTo=ca" lang="ca" data-focus>
+                                        Catal&agrave;</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- # Funcionalitat: Sortida -->
+
+                        <div class="eina-perfil">
+                            <button 
+                                id="eina-perfil-obre" 
+                                class="eina-obre" 
+                                data-component="dropdown"
+                                data-target="eina-perfil-opcions" >
+                                <span class="sr-only">???usuari??? </span>
+                                1620066
+                                <svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona dropdown">
+                                    <use href="img/icones.svg#icona-dropdown"></use>
+                                </svg>
+                            </button>
+
+                            <ul id="eina-perfil-opcions" class="desplegable" aria-hidden="true">
+                                <li data-item>
+                                    <a class="desplegable-item" href="logout.jsp" title="Surt" data-focus> 
+                                        <svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona sortida">
+                                            <use href="img/icones.svg#icona-sortida"></use>
+                                        </svg>    
+                                        Surt
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="capcal-logo">
+        <div class="container">
+            <div class="row">
+                <div class="col-auto">
+                    <svg class="logo-cv" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 500 500">
+                        <title>Logotip del Campus Virtual</title>
+                        <path fill="none" stroke="#eab000" stroke-width="50" stroke-miterlimit="10" d="M475 233L250.3 457.3 43.4 250.4 250.3 43.5l206.9 206.9"/>
+                    </svg>
+                </div>
+                <div class="col-auto">
+                    <h1 class="titol-site">
+                        <a href="index.jsp">
+                            Campus Virtual <span>UAB</span></a>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+	
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+            
+            
+        
+    
+
+
+
+    
+    
+        
+        
+            
+            
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	    
+
+
+		
+		
+
+
+<!-- # Estructura: EMBOLCALL CONTINGUT -->
+<main id="contingut" class="container">
+	
+	
+	<div id="avisos" class="acordio on">	
+		<h2 id="acordio-titol-avis" class="titol">
+			<button id="acordio-boto-avis" class="boto acordio-boto neutre" aria-expanded="false">
+				<svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona dropdown">
+					<use href="img/icones.svg#icona-dropdown"></use>
+				</svg>
+				<span>
+					Benvinguda al Campus Virtual de la UAB
+				</span>
+			</button>
+		</h2>
+		<div id="acordio-contingut-avis" class="acordio-contingut cos-text" aria-labelledby="acordio-titol-avis" aria-hidden="true">
+			<p><p><strong>Canvi de curs acadËmic al Campus Virtual (2024-2025)</strong></p><p>Ja podeu consultar al tauler principal del Campus Virtual les assignatures del curs 24-25.</p><p><br></p><p><strong> [REVISEU I CONSULTEU] </strong></p><p><a href="https://cv.uab.cat/ajuda/ca/2024/06/14/canvi-dany-academic-2024-25-al-campus-virtual/" target="_blank">Canvi de curs acadËmic i novetats</a></p><p><a href=" https://cv.uab.cat/ajuda/ca/category/primers-passos/ " target="_blank">Primers passos al Campus Virtual</a></p></p>
+		</div>			
+	</div>
+		
+
+	<div class="row">
+		<!-- # Estructura: ASSIGNATURES -->
+		<section id="assignatures" class="col-md-8 col-lg-6">
+			<div class="header">
+				<h2>
+					Les teves assignatures
+				</h2>
+				<button 
+					id="configuracio-aules-obre" 
+					class="boto invertit petit" 
+					aria-expanded="true"
+					aria-controls="configuracio-aules">
+					PreferËncies <span class="sr-only">???de_visualitzacio???</span>
+					<svg viewbox="0 0 24 24" class="icona dropdown"><use href="img/icones.svg#icona-configura"></use></svg>
+				</button>
+			</div>
+
+			<div id="configuracio-aules" class="desplegable" aria-hidden="true">
+				<div class="filtres">
+					<!-- Filtres -->
+					<fieldset>
+						<legend>Filtra les meves aules:</legend>
+						<div class="row">
+							<div class="col-auto">
+								<div class="form-seleccio-item">
+									<input type="checkbox" id="prof" class="boto-checkbox" name="filtra-aules" value="prof" checked>
+									<label for="prof" class="label-checkbox">Professor/a</label>	
+								</div>
+							</div>
+							<div class="col-auto">
+								<div class="form-seleccio-item">
+									<input type="checkbox" id="est" class="boto-checkbox" name="filtra-aules" value="est" checked>
+									<label for="est" class="label-checkbox">Estudiant</label>	
+								</div>
+							</div>
+						</div>
+					</fieldset>
+
+					<fieldset>
+						<legend>Vista:</legend>
+						<div class="row">
+							<div class="col-auto">
+								<div class="form-seleccio-item">
+									<input type="radio" id="vista-completa" class="boto-radio" name="vista" value="vista-completa" checked>
+									<label for="vista-completa" class="label-radio">Completa</label>	
+								</div>
+							</div>
+							<div class="col-auto">
+								<div class="form-seleccio-item">
+									<input type="radio" id="vista-simplificada" class="boto-radio" name="vista" value="vista-simplificada" >
+									<label for="vista-simplificada" class="label-radio">Simplificada</label>	
+								</div>
+							</div>
+						</div>
+					</fieldset>
+					<div class="row">
+						<div class="col">
+							<fieldset>
+								<legend>Organitza aules:</legend>
+								<input id="organitza-aules" class="interruptor" type="checkbox" name="organitza-aules" value="organitza-aules">
+								<label for="organitza-aules">
+									<span class="interruptor-fals">Habilita</span>
+								</label>
+							</fieldset>
+						</div>
+						<div class="col">
+							<fieldset>
+								<legend>Mostra avisos:</legend>
+								<input id="mostra-avisos" class="interruptor" type="checkbox" name="mostra-avisos" value="mostra-avisos">
+								<label for="mostra-avisos">
+									<span class="interruptor-fals">Habilita</span>
+								</label>		
+							</fieldset>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<form action="#" id="formActiva" name="formActiva" method="post">
+				<input type="hidden" id="aelements" name="aelements" value=""/>	
+				<input type="hidden" id="periode" name="periode" value="actual"/>	
+				<input type="hidden" id="vista" name="vista" value=""/>
+
+				<ul id="llistat-aules">
+					<!-- # Contingut: MISSATGERIA -->
+					<li class="llistat-aules-item missatgeria">
+						<div id="missatgeria">
+							<h3>
+								<a class="boto color-primari cta" href="https://e-aules.uab.cat/2024-25/message/index.php" target="_blank">
+									<svg viewbox="0 0 24 24" class="icona missatgeria"><use href="img/icones.svg#icona-missatgeria"></use></svg>
+									Missatgeria (Moodle)
+									<svg viewbox="0 0 24 24" class="icona ves"><use href="img/icones.svg#icona-ves"></use></svg>
+								</a>
+							</h3>
+							<div class="meta">
+								
+									
+										<svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona buit"><use href="img/icones.svg#icona-buit"></use></svg>	
+										<p><a href="https://e-aules.uab.cat/2024-25/message/index.php" target="_blank">No hi ha missatges nous</a></p>
+									
+									
+									
+								
+							</div>
+						</div>
+					</li>
+
+					<!-- # Contingut: AULES MOODLE -->
+					
+						
+						
+						
+						
+							
+						
+						
+						
+							
+							
+								
+								
+							
+						
+						
+							
+							
+								<li class="llistat-aules-item assignatura panellStudent">
+							
+						
+
+							<div id="AMO71985" >
+
+								<h3>
+									
+										
+										
+											<a class="titol-aula" href="https://e-aulesi.uab.cat/2024-25/course/view.php?idnumber=MO71985&profile=student"  target="_blank">
+												Algebra [MO71985] (24-25)
+												<svg viewbox="0 0 24 24" class="icona ves"><use href="img/icones.svg#icona-ves"></use></svg>
+											</a>
+										
+										
+									
+								</h3>
+								
+
+								<button class="boto petit color-primari desplaca-aula off desactivar-aula" id="dMO71985">
+									DesplaÁa a sota
+									<svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona desplaca-baix"><use href="img/icones.svg#icona-desplaca-baix"></use></svg>
+								</button>
+
+								<div class="meta">
+									<div class="novetats" id="pMO71985">
+										<h4 class="sr-only">???novetats???</h4>
+										<ul id="nMO71985" tipus="Standardold">
+											
+												
+												
+													<li>
+														<a href="https://e-aulesi.uab.cat/2024-25/course/view.php?idnumber=MO71985" target="_blank">
+															Esdeveniments propers <span class="sr-only">???de??? Algebra</span>
+															<div class="carregant">
+																<span class="sr-only">???carregant_dades???</span>	
+															</div>
+														</a>
+													</li>
+													
+														
+														
+															<li>
+																<a href="https://e-aulesi.uab.cat/2024-25/course/view.php?idnumber=MO71985" target="_blank">
+																	Material i activitats <span class="sr-only">???de??? Algebra</span>
+																	<div class="carregant">
+																		<span class="sr-only">???carregant_dades???</span>	
+																	</div>
+																</a>
+															</li>
+														
+													
+													<li>
+														<a href="https://e-aulesi.uab.cat/2024-25/course/view.php?idnumber=MO71985" target="_blank">
+															Avisos i notÌcies <span class="sr-only">de Algebra</span>
+															<div class="carregant">
+																<span class="sr-only">???carregant_dades???</span>	
+															</div>
+														</a>
+													</li>
+													
+												
+										</ul>						
+									</div>
+									<div class="descarregues">
+										
+											
+												<div class="guia-docent">
+													<h4>Guia docent</h4>
+													<button 
+														id="boto-guies-AMO71985" 
+														class="boto petit invertit" 
+														data-component="dropdown"
+														data-target="guies-AMO71985" >
+														Consultar <span class="sr-only">la guia docent de Algebra</span>
+														<svg viewbox="0 0 24 24" class="icona dropdown"><use href="img/icones.svg#icona-dropdown"></use></svg>
+													</button>
+													<ul id="guies-AMO71985" class="desplegable" aria-hidden="true">
+														
+															<li data-item><a href="https://guies.uab.cat/guies_docents/public/portal/html/2024/assignatura/103801/ca" lang="ca" data-focus class="desplegable-item" target="_blank" alt="Feu clic per mostrar" title="Feu clic per mostrar"> Guia docent <span>Algebra</span></a></li>
+														
+													</ul>
+												</div>
+											
+											
+										   	
+											
+												<div class="bibliografia">
+													<h4>Bibliografia</h4>
+													<button 
+														id="boto-bibliografia-AMO71985" 
+														class="boto petit invertit" 
+														data-component="dropdown"
+														data-target="bibliografia-AMO71985" >
+														Consultar <span class="sr-only">la bibliografia de Algebra</span>
+														<svg viewbox="0 0 24 24" class="icona dropdown"><use href="img/icones.svg#icona-dropdown"></use></svg>
+													</button>
+													<ul id="bibliografia-AMO71985" class="desplegable" aria-hidden="true">
+															 
+															                       
+															
+															<li data-item><a href="https://bibcercador.uab.cat/discovery/search?search_scope=CourseReserves&amp;vid=34CSUC_UAB:VU1&amp;query=course_code,contains,103801" lang="ca" data-focus class="desplegable-item" target="_blank" alt="Consultar la bibliografia de l'assignatura" title="Consultar la bibliografia de l'assignatura">Bibliografia <span>Algebra (103801)</span></a></li>
+														
+													</ul>
+												</div>
+											
+										
+									</div>
+								</div>
+							</div>
+						</li>
+					
+						
+						
+						
+						
+							
+						
+						
+						
+							
+							
+								
+								
+							
+						
+						
+							
+								<li class="llistat-aules-item assignatura especial panellStudent">
+							
+							
+						
+
+							<div id="AMO73011" >
+
+								<h3>
+									
+										
+											<a class="titol-aula" href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO73011&profile=student"  target="_blank">
+												Consell d&#039;Estudiants - InformaciÛ [MO73011] (24-25)
+												<svg viewbox="0 0 24 24" class="icona ves"><use href="img/icones.svg#icona-ves"></use></svg>
+											</a>
+										
+										
+										
+									
+								</h3>
+								
+
+								<button class="boto petit color-primari desplaca-aula off desactivar-aula" id="dMO73011">
+									DesplaÁa a sota
+									<svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona desplaca-baix"><use href="img/icones.svg#icona-desplaca-baix"></use></svg>
+								</button>
+
+								<div class="meta">
+									<div class="novetats" id="pMO73011">
+										<h4 class="sr-only">???novetats???</h4>
+										<ul id="nMO73011" tipus="NoUsers">
+											
+												
+													<li>
+														<a href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO73011" target="_blank">
+															Esdeveniments propers <span class="sr-only">???de??? Consell d&#039;Estudiants - InformaciÛ</span>
+															<div class="carregant">
+																<span class="sr-only">???carregant_dades???</span>																	
+															</div>
+														</a>
+													</li>
+													
+														
+															<li>
+																<a href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO73011" target="_blank">
+																	Documents <span class="sr-only">???de??? Consell d&#039;Estudiants - InformaciÛ</span>
+																	<div class="carregant">
+																		<span class="sr-only">???carregant_dades???</span>	
+																	</div>
+																</a>
+															</li>
+														
+														
+													
+													<li>
+														<a href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO73011" target="_blank">
+															Avisos i notÌcies <span class="sr-only">???de??? Consell d&#039;Estudiants - InformaciÛ</span>
+															<div class="carregant">
+																<span class="sr-only">???carregant_dades???</span>	
+															</div>
+														</a>
+													</li>
+												
+													
+												
+										</ul>						
+									</div>
+									<div class="descarregues">
+											
+										
+									</div>
+								</div>
+							</div>
+						</li>
+					
+						
+						
+						
+						
+							
+						
+						
+						
+							
+							
+								
+								
+							
+						
+						
+							
+							
+								<li class="llistat-aules-item assignatura panellStudent">
+							
+						
+
+							<div id="AMO69421" >
+
+								<h3>
+									
+										
+											<a class="titol-aula" href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO69421&profile=student"  target="_blank">
+												Electricitat i ElectrÚnica [MO69421] (24-25)
+												<svg viewbox="0 0 24 24" class="icona ves"><use href="img/icones.svg#icona-ves"></use></svg>
+											</a>
+										
+										
+										
+									
+								</h3>
+								
+
+								<button class="boto petit color-primari desplaca-aula off desactivar-aula" id="dMO69421">
+									DesplaÁa a sota
+									<svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona desplaca-baix"><use href="img/icones.svg#icona-desplaca-baix"></use></svg>
+								</button>
+
+								<div class="meta">
+									<div class="novetats" id="pMO69421">
+										<h4 class="sr-only">???novetats???</h4>
+										<ul id="nMO69421" tipus="Standardold">
+											
+												
+													<li>
+														<a href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO69421" target="_blank">
+															Esdeveniments propers <span class="sr-only">???de??? Electricitat i ElectrÚnica</span>
+															<div class="carregant">
+																<span class="sr-only">???carregant_dades???</span>																	
+															</div>
+														</a>
+													</li>
+													
+														
+														
+															<li>
+																<a href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO69421" target="_blank">
+																	Material i activitats <span class="sr-only">???de??? Electricitat i ElectrÚnica</span>
+																	<div class="carregant">
+																		<span class="sr-only">???carregant_dades???</span>	
+																	</div>
+																</a>
+															</li>
+														
+													
+													<li>
+														<a href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO69421" target="_blank">
+															Avisos i notÌcies <span class="sr-only">???de??? Electricitat i ElectrÚnica</span>
+															<div class="carregant">
+																<span class="sr-only">???carregant_dades???</span>	
+															</div>
+														</a>
+													</li>
+												
+													
+												
+										</ul>						
+									</div>
+									<div class="descarregues">
+										
+											
+												<div class="guia-docent">
+													<h4>Guia docent</h4>
+													<button 
+														id="boto-guies-AMO69421" 
+														class="boto petit invertit" 
+														data-component="dropdown"
+														data-target="guies-AMO69421" >
+														Consultar <span class="sr-only">la guia docent de Electricitat i ElectrÚnica</span>
+														<svg viewbox="0 0 24 24" class="icona dropdown"><use href="img/icones.svg#icona-dropdown"></use></svg>
+													</button>
+													<ul id="guies-AMO69421" class="desplegable" aria-hidden="true">
+														
+															<li data-item><a href="https://guies.uab.cat/guies_docents/public/portal/html/2024/assignatura/102771/ca" lang="ca" data-focus class="desplegable-item" target="_blank" alt="Feu clic per mostrar" title="Feu clic per mostrar"> Guia docent <span>Electricitat i ElectrÚnica</span></a></li>
+														
+													</ul>
+												</div>
+											
+											
+										   	
+											
+												<div class="bibliografia">
+													<h4>Bibliografia</h4>
+													<button 
+														id="boto-bibliografia-AMO69421" 
+														class="boto petit invertit" 
+														data-component="dropdown"
+														data-target="bibliografia-AMO69421" >
+														Consultar <span class="sr-only">la bibliografia de Electricitat i ElectrÚnica</span>
+														<svg viewbox="0 0 24 24" class="icona dropdown"><use href="img/icones.svg#icona-dropdown"></use></svg>
+													</button>
+													<ul id="bibliografia-AMO69421" class="desplegable" aria-hidden="true">
+															 
+															                       
+															
+															<li data-item><a href="https://bibcercador.uab.cat/discovery/search?search_scope=CourseReserves&amp;vid=34CSUC_UAB:VU1&amp;query=course_code,contains,102771" lang="ca" data-focus class="desplegable-item" target="_blank" alt="Consultar la bibliografia de l'assignatura" title="Consultar la bibliografia de l'assignatura">Bibliografia <span>Electricitat i ElectrÚnica (102771)</span></a></li>
+														
+													</ul>
+												</div>
+											
+										
+									</div>
+								</div>
+							</div>
+						</li>
+					
+						
+						
+						
+						
+							
+						
+						
+						
+							
+							
+								
+								
+							
+						
+						
+							
+								<li class="llistat-aules-item assignatura especial panellStudent">
+							
+							
+						
+
+							<div id="AMO69238" >
+
+								<h3>
+									
+										
+											<a class="titol-aula" href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO69238&profile=student"  target="_blank">
+												Espai de coordinaciÛ del Grau en Enginyeria Inform‡tica [MO69238] (24-25)
+												<svg viewbox="0 0 24 24" class="icona ves"><use href="img/icones.svg#icona-ves"></use></svg>
+											</a>
+										
+										
+										
+									
+								</h3>
+								
+
+								<button class="boto petit color-primari desplaca-aula off desactivar-aula" id="dMO69238">
+									DesplaÁa a sota
+									<svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona desplaca-baix"><use href="img/icones.svg#icona-desplaca-baix"></use></svg>
+								</button>
+
+								<div class="meta">
+									<div class="novetats" id="pMO69238">
+										<h4 class="sr-only">???novetats???</h4>
+										<ul id="nMO69238" tipus="NoUsers">
+											
+												
+													<li>
+														<a href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO69238" target="_blank">
+															Esdeveniments propers <span class="sr-only">???de??? Espai de coordinaciÛ del Grau en Enginyeria Inform‡tica</span>
+															<div class="carregant">
+																<span class="sr-only">???carregant_dades???</span>																	
+															</div>
+														</a>
+													</li>
+													
+														
+															<li>
+																<a href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO69238" target="_blank">
+																	Documents <span class="sr-only">???de??? Espai de coordinaciÛ del Grau en Enginyeria Inform‡tica</span>
+																	<div class="carregant">
+																		<span class="sr-only">???carregant_dades???</span>	
+																	</div>
+																</a>
+															</li>
+														
+														
+													
+													<li>
+														<a href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO69238" target="_blank">
+															Avisos i notÌcies <span class="sr-only">???de??? Espai de coordinaciÛ del Grau en Enginyeria Inform‡tica</span>
+															<div class="carregant">
+																<span class="sr-only">???carregant_dades???</span>	
+															</div>
+														</a>
+													</li>
+												
+													
+												
+										</ul>						
+									</div>
+									<div class="descarregues">
+											
+										
+									</div>
+								</div>
+							</div>
+						</li>
+					
+						
+						
+						
+						
+							
+						
+						
+						
+							
+							
+								
+								
+							
+						
+						
+							
+							
+								<li class="llistat-aules-item assignatura panellStudent">
+							
+						
+
+							<div id="AMO68794" >
+
+								<h3>
+									
+										
+											<a class="titol-aula" href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO68794&profile=student"  target="_blank">
+												Fonaments d&#039;Enginyeria 24-25 [MO68794] (24-25)
+												<svg viewbox="0 0 24 24" class="icona ves"><use href="img/icones.svg#icona-ves"></use></svg>
+											</a>
+										
+										
+										
+									
+								</h3>
+								
+
+								<button class="boto petit color-primari desplaca-aula off desactivar-aula" id="dMO68794">
+									DesplaÁa a sota
+									<svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona desplaca-baix"><use href="img/icones.svg#icona-desplaca-baix"></use></svg>
+								</button>
+
+								<div class="meta">
+									<div class="novetats" id="pMO68794">
+										<h4 class="sr-only">???novetats???</h4>
+										<ul id="nMO68794" tipus="Standardold">
+											
+												
+													<li>
+														<a href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO68794" target="_blank">
+															Esdeveniments propers <span class="sr-only">???de??? Fonaments d&#039;Enginyeria 24-25</span>
+															<div class="carregant">
+																<span class="sr-only">???carregant_dades???</span>																	
+															</div>
+														</a>
+													</li>
+													
+														
+														
+															<li>
+																<a href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO68794" target="_blank">
+																	Material i activitats <span class="sr-only">???de??? Fonaments d&#039;Enginyeria 24-25</span>
+																	<div class="carregant">
+																		<span class="sr-only">???carregant_dades???</span>	
+																	</div>
+																</a>
+															</li>
+														
+													
+													<li>
+														<a href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO68794" target="_blank">
+															Avisos i notÌcies <span class="sr-only">???de??? Fonaments d&#039;Enginyeria 24-25</span>
+															<div class="carregant">
+																<span class="sr-only">???carregant_dades???</span>	
+															</div>
+														</a>
+													</li>
+												
+													
+												
+										</ul>						
+									</div>
+									<div class="descarregues">
+										
+											
+												<div class="guia-docent">
+													<h4>Guia docent</h4>
+													<button 
+														id="boto-guies-AMO68794" 
+														class="boto petit invertit" 
+														data-component="dropdown"
+														data-target="guies-AMO68794" >
+														Consultar <span class="sr-only">la guia docent de Fonaments d&amp;#039;Enginyeria 24-25</span>
+														<svg viewbox="0 0 24 24" class="icona dropdown"><use href="img/icones.svg#icona-dropdown"></use></svg>
+													</button>
+													<ul id="guies-AMO68794" class="desplegable" aria-hidden="true">
+														
+															<li data-item><a href="https://guies.uab.cat/guies_docents/public/portal/html/2024/assignatura/103805/ca" lang="ca" data-focus class="desplegable-item" target="_blank" alt="Feu clic per mostrar" title="Feu clic per mostrar"> Guia docent <span>Fonaments d&#039;Enginyeria 24-25</span></a></li>
+														
+													</ul>
+												</div>
+											
+											
+										   	
+											
+												<div class="bibliografia">
+													<h4>Bibliografia</h4>
+													<button 
+														id="boto-bibliografia-AMO68794" 
+														class="boto petit invertit" 
+														data-component="dropdown"
+														data-target="bibliografia-AMO68794" >
+														Consultar <span class="sr-only">la bibliografia de Fonaments d&#039;Enginyeria 24-25</span>
+														<svg viewbox="0 0 24 24" class="icona dropdown"><use href="img/icones.svg#icona-dropdown"></use></svg>
+													</button>
+													<ul id="bibliografia-AMO68794" class="desplegable" aria-hidden="true">
+															 
+															                       
+															
+															<li data-item><a href="https://bibcercador.uab.cat/discovery/search?search_scope=CourseReserves&amp;vid=34CSUC_UAB:VU1&amp;query=course_code,contains,103805" lang="ca" data-focus class="desplegable-item" target="_blank" alt="Consultar la bibliografia de l'assignatura" title="Consultar la bibliografia de l'assignatura">Bibliografia <span>Fonaments d&#039;Enginyeria 24-25 (103805)</span></a></li>
+														
+													</ul>
+												</div>
+											
+										
+									</div>
+								</div>
+							</div>
+						</li>
+					
+						
+						
+						
+						
+							
+						
+						
+						
+							
+							
+								
+								
+							
+						
+						
+							
+							
+								<li class="llistat-aules-item assignatura panellStudent">
+							
+						
+
+							<div id="AMO71836" >
+
+								<h3>
+									
+										
+											<a class="titol-aula" href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO71836&profile=student"  target="_blank">
+												Fonaments d&#039;Inform‡tica [MO71836] (24-25)
+												<svg viewbox="0 0 24 24" class="icona ves"><use href="img/icones.svg#icona-ves"></use></svg>
+											</a>
+										
+										
+										
+									
+								</h3>
+								
+
+								<button class="boto petit color-primari desplaca-aula off desactivar-aula" id="dMO71836">
+									DesplaÁa a sota
+									<svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona desplaca-baix"><use href="img/icones.svg#icona-desplaca-baix"></use></svg>
+								</button>
+
+								<div class="meta">
+									<div class="novetats" id="pMO71836">
+										<h4 class="sr-only">???novetats???</h4>
+										<ul id="nMO71836" tipus="Standardold">
+											
+												
+													<li>
+														<a href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO71836" target="_blank">
+															Esdeveniments propers <span class="sr-only">???de??? Fonaments d&#039;Inform‡tica</span>
+															<div class="carregant">
+																<span class="sr-only">???carregant_dades???</span>																	
+															</div>
+														</a>
+													</li>
+													
+														
+														
+															<li>
+																<a href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO71836" target="_blank">
+																	Material i activitats <span class="sr-only">???de??? Fonaments d&#039;Inform‡tica</span>
+																	<div class="carregant">
+																		<span class="sr-only">???carregant_dades???</span>	
+																	</div>
+																</a>
+															</li>
+														
+													
+													<li>
+														<a href="https://e-aules.uab.cat/2024-25/course/view.php?idnumber=MO71836" target="_blank">
+															Avisos i notÌcies <span class="sr-only">???de??? Fonaments d&#039;Inform‡tica</span>
+															<div class="carregant">
+																<span class="sr-only">???carregant_dades???</span>	
+															</div>
+														</a>
+													</li>
+												
+													
+												
+										</ul>						
+									</div>
+									<div class="descarregues">
+										
+											
+												<div class="guia-docent">
+													<h4>Guia docent</h4>
+													<button 
+														id="boto-guies-AMO71836" 
+														class="boto petit invertit" 
+														data-component="dropdown"
+														data-target="guies-AMO71836" >
+														Consultar <span class="sr-only">la guia docent de Fonaments d&amp;#039;Inform‡tica</span>
+														<svg viewbox="0 0 24 24" class="icona dropdown"><use href="img/icones.svg#icona-dropdown"></use></svg>
+													</button>
+													<ul id="guies-AMO71836" class="desplegable" aria-hidden="true">
+														
+															<li data-item><a href="https://guies.uab.cat/guies_docents/public/portal/html/2024/assignatura/103806/ca" lang="ca" data-focus class="desplegable-item" target="_blank" alt="Feu clic per mostrar" title="Feu clic per mostrar"> Guia docent <span>Fonaments d&#039;Inform‡tica</span></a></li>
+														
+													</ul>
+												</div>
+											
+											
+										   	
+											
+												<div class="bibliografia">
+													<h4>Bibliografia</h4>
+													<button 
+														id="boto-bibliografia-AMO71836" 
+														class="boto petit invertit" 
+														data-component="dropdown"
+														data-target="bibliografia-AMO71836" >
+														Consultar <span class="sr-only">la bibliografia de Fonaments d&#039;Inform‡tica</span>
+														<svg viewbox="0 0 24 24" class="icona dropdown"><use href="img/icones.svg#icona-dropdown"></use></svg>
+													</button>
+													<ul id="bibliografia-AMO71836" class="desplegable" aria-hidden="true">
+															 
+															                       
+															
+															<li data-item><a href="https://bibcercador.uab.cat/discovery/search?search_scope=CourseReserves&amp;vid=34CSUC_UAB:VU1&amp;query=course_code,contains,103806" lang="ca" data-focus class="desplegable-item" target="_blank" alt="Consultar la bibliografia de l'assignatura" title="Consultar la bibliografia de l'assignatura">Bibliografia <span>Fonaments d&#039;Inform‡tica (103806)</span></a></li>
+														
+													</ul>
+												</div>
+											
+										
+									</div>
+								</div>
+							</div>
+						</li>
+					
+				</ul>
+
+				
+
+				<ul id="llistat-aules-desplacades" class="vista-simplificada">
+					
+				</ul>
+			</form>
+		</section>
+
+		
+		<div class="col-md-4 col-lg-6">
+			<div class="row">
+				<!-- # Estructura: ACTUALITAT noticies -->
+				
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+        
+
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+						<section id="actualitat" class="col-lg-5">	
+						<div class="header">
+								<h2>Actualitat</h2>
+						</div>
+						
+						<h3><span class="sr-only">Actualitat </span>Al Campus</h3>
+						<ul class="llistat enllacos">
+							
+								 
+								<li  class='noticia-destacada'  >
+
+									<a href="https://www.uab.cat/web/sala-de-premsa/detall-noticia/obert-el-termini-per-consultar-el-cens-electoral-provisional-1345829508832.html?detid=1345928912566" target="_new">
+										 
+										<div class="imatge">
+											<img src="https://www.uab.cat/Imatge/92/690/eleccions,24.jpg" alt="" />
+										</div>
+										
+										Obert el termini per consultar el cens electoral provisional
+									</a>
+								</li>
+							
+							
+								 
+								<li  >
+
+									<a href="https://www.uab.cat/web/sala-de-premsa/detall-noticia/darrers-dies-per-a-sol-licitar-les-beques-nova-per-a-estudiants-amb-discapacitat-1345829508832.html?detid=1345928973176" target="_new">
+										
+										Darrers dies per a sol∑licitar les Beques Nova, per a estudiants amb discapacitat
+									</a>
+								</li>
+							
+							
+								 
+								<li  >
+
+									<a href="https://www.uab.cat/web/sala-de-premsa/detall-noticia/taller-practic-per-dipositar-dades-de-recerca-a-cora-rdr-1345829508832.html?detid=1345928902840" target="_new">
+										
+										Taller pr‡ctic per dipositar dades de recerca a CORA.RDR
+									</a>
+								</li>
+							
+							
+								 
+								<li  >
+
+									<a href="https://www.uab.cat/web/sala-de-premsa/detall-noticia/la-uab-organitza-l-exposicio-angel-guimera-dramaturg-universal-1345829508832.html?detid=1345928929451" target="_new">
+										
+										La UAB organitza l'exposiciÛ "¡ngel Guimer‡, dramaturg universal"
+									</a>
+								</li>
+							
+							
+						</ul>
+
+
+							
+													
+							
+							
+									
+								
+							<h3><span class="sr-only">Actualitat </span>A la  Escola d&#039;Enginyeria</h3>
+							    
+										
+							<ul class="llistat enllacos">
+									 
+								<li  class='noticia-destacada'  >
+
+									<a href="https://www.uab.cat/web/detall-de-noticia/tot-a-punt-per-a-l-engineering-welcome-day-2024-ewd24-1345737380866.html?noticiaid=1345926635192" target="_new">
+										
+										<div class="imatge">
+											<img src="https://www.uab.cat/Imatge/519/133/engineeringwelcome.jpeg" alt="" />
+										</div>
+										
+										RËcord d'assistËncia a l'Engineering Welcome Day 2024 (#EWD24)
+									</a>
+								</li>
+									 
+								<li  >
+
+									<a href="https://www.uab.cat/web/detall-de-noticia/ets-estudiant-de-1r-consulta-els-horaris-de-les-sessions-de-benvinguda-per-als-nous-estudiants-de-l-escola-1345737380866.html?noticiaid=1345925902555" target="_new">
+										
+										Ets estudiant de 1r? Consulta els horaris de les sessions de benvinguda per als nous estudiants de l'Escola
+									</a>
+								</li>
+									 
+								<li  >
+
+									<a href="https://www.uab.cat/web/detall-de-noticia/jornada-doenginyeriauab-denominacio-d-origen-a-enginyeria-1345737380866.html?noticiaid=1345921337543" target="_new">
+										
+										Jornada #DOEnginyeriaUAB: DenominaciÛ d'Origen a Enginyeria
+									</a>
+								</li>
+									 
+								<li  >
+
+									<a href="https://www.uab.cat/web/detall-de-noticia/l-escola-d-enginyeria-implementa-una-nova-politica-contra-l-assetjament-i-la-discriminacio-1345737380866.html?noticiaid=1345919760268" target="_new">
+										
+										L'Escola d'Enginyeria implementa una nova polÌtica contra l'assetjament i la discriminaciÛ
+									</a>
+								</li>
+									
+							</ul>
+							
+							
+
+					</section>
+		
+
+
+				<!-- # Estructura: UTILITATS  menu -->
+				
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+	
+
+
+
+	
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+        
+            
+            
+        
+    
+
+
+
+    
+    
+        
+        
+            
+            
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+        
+
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
+		
+
+
+<!-- Columna Men√∫ -->
+
+
+
+<!-- # Estructura: UTILITATS -->
+<section id="utils" class="col-lg-7">
+
+    <div class="header">
+        <h2>Utilitats</h2>
+    </div>
+     
+    
+
+    
+
+    <nav aria-labelledby="nav-pagina-titol">
+        <h3 id="nav-pagina-titol">Cursos</h3>
+        <ul id="nav-seccio-menu">               
+            <li><a class="actiu" href="index.jsp">Curs actual</a></li>                   
+            <li><a  href="anysAnteriors.jsp">Curs acadËmic anterior (23-24)</a></li>                       
+            <li><a  href="dosAnysAnteriors.jsp">Curs acadËmic anterior (22-23)</a></li> 
+             
+        </ul>
+    </nav>
+
+    <h3>Dreceres</h3>
+
+    <ul class="dreceres">
+        <li><a href="https://outlook.office.com/" target="_blank">Correu</a></li>
+        <li><a href="https://www.uab.cat/web/estudis/grau/oferta-de-graus/calendari-academic-1345841461285.html" target="_blank">Calendari acadËmic</a></li>
+        <li><a href="https://www.uab.cat/biblioteques/" target="_blank">Cat‡leg de biblioteques</a></li>
+        <li><a href="https://sia.uab.cat" target="_blank">Serveis i tr‡mits en lÌnia</a></li>
+        <li><a href="https://si-respostes.uab.cat" target="_blank">Serveis TIC - Preguntes freq¸ents</a></li>
+        <li><a href="https://blogs.uab.cat/dretsautor/" target="_blank">Propietat intel∑lectual i accÈs obert</a></li>
+        
+            <li><a href="https://si-respostes.uab.cat/inici/programari/programari/p-soc-alumne-quin-programari-puc-instal-lar-al-meu-pc-particular" target="_blank">Programari amb llicËncia campus</a></li>
+        
+        <li><a href="https://tfe.uab.cat" target="_blank">Treballs fi d'estudis (TFE)</a></li>                        
+    </ul>
+
+    
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+	
+
+
+
+	
+
+
+
+        
+
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	<h3 class="sr-only">Enquestes</h3>
+    <ul class="cc-banners-cta row">
+    	
+		
+
+		
+
+	        <li class="col-12 col-sm-6 col-md-12">
+	        	<div class="wrap">
+	                
+	                <a class="color-terciari" href="https://opina.uab.cat/" target="_new">
+	                    <h4 class="titol">La teva opini&oacute;</h4>
+	            	    <p class="descripcio">Felicitacions, queixes, suggeriments</p>
+	                		<svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona ves"><use href="img/icones.svg#icona-ves"></use></svg>
+	                </a>
+	            </div>
+	        </li>
+
+								 						
+							
+		
+
+	        <li class="col-12 col-sm-6 col-md-12">
+	        	<div class="wrap">
+	                
+	                <a class="color" href="https://www.uab.cat/web/ajuts-beques-i-convocatories-1345808127641.html" target="_new">
+	                    <h4 class="titol">Beques d'estudi</h4>
+	            	    <p class="descripcio">Ajuts, beques i convocat&ograve;ries</p>
+	                		<svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona ves"><use href="img/icones.svg#icona-ves"></use></svg>
+	                </a>
+	            </div>
+	        </li>
+
+								 						
+							
+		
+
+	        <li class="col-12 col-sm-6 col-md-12">
+	        	<div class="wrap">
+	                
+	                <a class="color-quaternari" href="https://www.uab.cat/web/l-observatori-per-a-la-igualtat-de-la-uab-1345681954963.html" target="_new">
+	                    <h4 class="titol">Observatori per a la Igualtat</h4>
+	            	    <p class="descripcio">Formaci&oacute;, protocol contra l'assetjament</p>
+	                		<svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona ves"><use href="img/icones.svg#icona-ves"></use></svg>
+	                </a>
+	            </div>
+	        </li>
+
+								 						
+							
+		
+
+	        <li class="col-12 col-sm-6 col-md-12">
+	        	<div class="wrap">
+	                
+	                <a class="color-secundari" href="https://forms.office.com/pages/responsepage.aspx?id=KUxRa5EjMUi3dITzXEW_AYr-0JmRjUdDkg0kiSQaCXNUNjBER1UxQ0RKNzNZNjNJWDJWTkhJTjNZNy4u" target="_new">
+	                    <h4 class="titol">Formulari per a estudiants amb NESE</h4>
+	            	    <p class="descripcio">Atenci&oacute; des del PIUNE</p>
+	                		<svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona ves"><use href="img/icones.svg#icona-ves"></use></svg>
+	                </a>
+	            </div>
+	        </li>
+
+								 						
+							
+		
+
+	        <li class="col-12 col-sm-6 col-md-12">
+	        	<div class="wrap">
+	                
+	                <a class="gris" href="https://intranet-nova.uab.es/avantatges-comercials" target="_new">
+	                    <h4 class="titol">Avantatges comercials</h4>
+	            	    <p class="descripcio">Descomptes per a membres de la comunitat universit&agrave;ria</p>
+	                		<svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona ves"><use href="img/icones.svg#icona-ves"></use></svg>
+	                </a>
+	            </div>
+	        </li>
+
+								 						
+							
+		
+    </ul>
+		                    
+
+</section>
+
+			</div>
+		</div>
+	</div>
+</main>
+
+
+
+
+
+		
+
+
+
+
+
+    <!-- # Estructura: PEU DE P√ÄGINA -->
+    <footer>
+    <h2 class="sr-only">???contacte_i_info_legal???</h2>
+    <div class="container">
+        <div class="row">
+            <!-- # Estructura: PEU DE P√ÄGINA: Informaci√≥ de contacte -->
+            <div class="contacte-site col-md-6 col-lg-4">
+                <h3>Suport</h3>
+                <ul>
+                    <li>
+                        <a href="https://cv.uab.cat/ajuda/ca/tag/alumnat/">
+                            <svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona ajuda"><use href="img/icones.svg#icona-ajuda"></use></svg>Moodle: Ajuda per a l'alumnat                             
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://cv.uab.cat/ajuda/ca/tag/professorat/">
+                            <svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona ajuda"><use href="img/icones.svg#icona-ajuda"></use></svg>Moodle: Ajuda per al professorat
+                        </a>
+                    </li>
+                </ul>
+
+                <h3>
+                    Contacte</h3>
+                <address>
+                    <p>
+                        <strong>
+                            Centre d'Assist&egrave;ncia i Suport</strong>
+                    </p>
+                    <p>
+                        Edifici D
+                        <br/> Carrer de l'Albareda
+                        <br/> Campus UAB
+                        <br/> 08193 Bellaterra (Barcelona)
+                    </p>
+                    <p>
+                        <a href="https://www.uab.cat/dtic/" target="_blank">
+                            <svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona enllac"><use href="img/icones.svg#icona-enllac"></use></svg>www.uab.cat/dtic
+                        </a>
+                    </p>
+                    <p>
+                        <svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona telefon"><use href="img/icones.svg#icona-telefon"></use></svg>+34 93 581 21 00
+                    </p>
+                    <p>
+                        <svg focusable="false" aria-hidden="true" viewbox="0 0 24 24" class="icona email"><use href="img/icones.svg#icona-email"></use></svg>
+                        <a href="mailto:cas@uab.cat">cas@uab.cat</a>
+                    </p>
+                </address>
+            </div>
+            <!-- # Estructura: PEU DE P√ÄGINA: Ajuda -->
+            <div class="ajuda-i-normativa col-md-6 col-lg-4">
+                
+
+                <h3>InformaciÛ legal</h3>
+
+                <p class="text-legal">L'˙s d'aquesta plataforma s'ha d'ajustar a la normativa interna de la UAB que regula el tractament de continguts en el campus virtual per tal de respectar els drets de propietat intel∑lectual de tercers (Arts. 32 a 39 del text refÛs de les Normatives vigents en l'‡mbit de les Tecnologies de la InformaciÛ i de la ComunicaciÛ de la UAB, aprovat per Acords del Consell de Govern n˙m. <a href="https://www.uab.cat/doc/TR_normativa_TIC" target="_blank">37/2011</a>, de 13 de juliol i n˙m. <a href="http://www.uab.cat/doc/BOUAB-95-Abril-2012" target="_blank">44/2012</a>, de 25 d'abril).<a href="normativa-interna.jsp"> MÈs informaciÛ <span class="sr-only">sobre els dret d'autor...</span></a></p>
+                <p class="text-legal">Les obres posades a disposiciÛ en aquesta intranet estan protegides pel dret d'autor i, la seva reproducciÛ i comunicaciÛ p˙blica s'han realitzat sota l'autoritzaciÛ prevista a l'article 32.4 de la llei de Propietat Intel∑lectual. Qualsevol reproducciÛ, distribuciÛ, transformaciÛ i comunicaciÛ p˙blica en qualsevol mitj‡ i de qualsevol forma, fora de l'abast de l'esmentada autoritzaciÛ, hauran de ser objecte d'una llicËncia especÌfica. <a href="llicencies-cedro-vegap.jsp">MÈs informaciÛ <span class="sr-only">sobre els dret d'autor...</span></a></p>
+                <ul>
+                    <li>
+                        <a href="condicions-us.jsp">
+                            Normativa i condicions d'˙s del Campus Virtual</a>
+                    </li>
+                    <li>
+                        <a href="proteccio-dades.jsp">
+                            Normativa sobre la protecciÛ de dades per a classes virtuals</a>
+                    </li>
+                    <li>
+                        <a href="propietat-intellectual.jsp">
+                            Estudiants: DeclaraciÛ i compromÌs drets propietat intel∑lectual</a>
+                    </li>
+                    <li>
+                        <a href="dades-personals.jsp">
+                            Estudiants: DeclaraciÛ i compromÌs dades personals</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- # Estructura: PEU DE P√ÄGINA: Informaci√≥ legal -->
+            <div class="legal col-lg-4">
+                <h3>
+                    Sobre el web</h3>
+                    
+                <div class="row">
+                    <div class="col-sm-5 col-md-12">
+                        <div class="logo">
+                            <span class="sr-only">
+                                Universitat Aut&ograve;noma de Barcelona</span>
+                        </div>
+                    </div>
+                    <nav class="col-sm-7 col-md-12" aria-label="Informaci&oacute; t&egrave;cnica i legal">
+                        <ul>
+                            <li>
+                                <a href="https://www.uab.cat" target="_blank">
+                                    Inici</a>
+                            </li>
+                            <li>
+                                <a href="https://www.uab.cat/web/coneix-la-uab/itineraris/avis-legal-1345668257191.html" target="_blank">
+                                    AvÌs legal</a>
+                            </li>
+                            <li>
+                                <a href="https://www.uab.cat/web/coneix-la-uab/itineraris/proteccio-de-dades-1345668257177.html" target="_blank">
+                                    ProtecciÛ de dades</a>
+                            </li>
+                            <li>
+                                <a href="https://www.uab.cat/web/coneix-la-uab/itineraris/sobre-el-web-1345668257169.html" target="_blank">
+                                    Sobre el web</a>
+                            </li>
+                            <li>
+                                <a href="https://www.uab.cat/web/coneix-la-uab/itineraris/accessibilitat-web-1345799763683.html" target="_blank">
+                                    Accessibilitat web</a>
+                            </li>
+                            <li>
+                                <a href="https://www.uab.cat/web/coneix-la-uab/mapa-web-1345821257206.html" target="_blank">
+                                    Mapa web</a>
+                            </li>
+                        </ul>
+                        <p class="lema">
+                            Som una universitat capdavantera que imparteix una docËncia de qualitat i excel∑lËncia, diversificada, multidisciplin‡ria i flexible, ajustada a les necessitats de la societat i adaptada als nous models de l'Europa del coneixement. La UAB Ès reconeguda internacionalment per la qualitat i el car‡cter innovador de la seva recerca..
+                        </p>
+                        <p>
+                            <a href="https://www.uab.cat" target="_bank">
+                                &#169 2024 Universitat Aut&ograve;noma de Barcelona
+                            </a>
+                        </p>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+</body>
+
+</html>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8341TXGWBP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8341TXGWBP');
+</script>
+
+
+<script type="text/javascript">
+
+   
+	function aplicafiltres (filtre,vista) {
+		var filtres = ["mostraDocent","mostraEstudiant","mostraTotes"];
+	
+		var filtrat = [];
+		filtrat.push(filtre);
+		var restef = [];
+		$.grep(filtres, function(el) {
+			if (jQuery.inArray(el, filtrat) == -1) restef.push(el);
+		});
+	
+		$.each(restef, function( index, value ) {
+			$("."+value).removeClass('actiu');
+		});
+	
+		$("."+filtre).addClass('actiu');
+	
+		if (filtre=="mostraTotes") {
+			$(".panellTeacher").show();
+			$(".panellStudent").show();
+		}
+	
+		if (filtre=="mostraDocent") {
+			$(".panellTeacher").show();
+			$(".panellStudent").hide();
+		}
+	
+		if (filtre=="mostraEstudiant") {
+			$(".panellTeacher").hide();
+			$(".panellStudent").show();
+		}
+	
+		if (vista=="caixes") {
+			$("#llistat-aules").removeClass('vista-simplificada');
+		   }
+	
+		if (vista=="llistat") {
+			$("#llistat-aules").addClass('vista-simplificada');
+		}
+	
+	
+		$('#prof').change(function() {
+			// this will contain a reference to the checkbox   
+			if (this.checked) {
+				// the checkbox is now checked 
+					$(".panellTeacher").show();
+					 localStorage['profe']="1";
+			} else {
+				$(".panellTeacher").hide();
+				localStorage['profe']="0";
+			}
+		});
+	
+		$('#est').change(function() {
+			// this will contain a reference to the checkbox   
+			if (this.checked) {
+				// the checkbox is now checked
+				$(".panellStudent").show(); 
+				localStorage['alumne'] = "1";
+			} else {
+				$(".panellStudent").hide();
+				localStorage['alumne'] = "0";
+			}
+		});
+	
+	
+	};
+	
+		function aplicavista (vista) {
+				if (vista=="caixes") {
+						$("#llistat-aules").removeClass('vista-simplificada');
+						$("#vista-completa").prop('checked',true); 
+				   }
+	
+				if (vista=="llistat") {
+						$("#llistat-aules").addClass('vista-simplificada');
+						$("#vista-simplificada").prop('checked',true);  
+				}    			
+		};
+	
+		function aplicaedicio (edita) {
+				if (edita=="1") {
+					$(".desplaca-aula").toggleClass("off");
+					$("#organitza-aules").attr("checked", true);
+				  }
+	
+		};
+	
+		function aplicaavisos (avisos) {
+				if (avisos=="1") {
+					$("#avisos").removeClass("off");
+					$("#avisos").addClass("on");
+					$("#mostra-avisos").attr("checked", true);
+				  }	
+				if (avisos=="0") {
+					$("#avisos").removeClass("on");
+					$("#avisos").addClass("off");
+					$("#mostra-avisos").attr("checked", false);
+				  }					
+		};
+	
+	function aaaaa(elem) {
+	
+		Dropdowns.init();
+	
+	};
+	
+	$(document).ready(function() {
+		var sivista = localStorage['vista'];
+		var siprofe = localStorage['profe'];
+		var sialumne = localStorage['alumne'];
+		var siedita = localStorage['edita'];
+		var siavisos = localStorage['avisos'];
+	
+		if (!sivista) {
+			localStorage['vista'] = "caixes";
+		}
+	
+		if (!siprofe) {
+			localStorage['profe'] = "1";
+		}
+	
+		if (!sialumne) {
+			localStorage['alumne'] = "1";
+		}
+	
+		if (!siedita) {
+			localStorage['edita'] = "0";
+		}
+	
+		if (!siavisos) {
+			localStorage['avisos'] = "1";
+		}
+	
+		$('#prof').change(function() {
+			// this will contain a reference to the checkbox   
+			if (this.checked) {
+				// the checkbox is now checked 
+					$(".panellTeacher").show();
+					 localStorage['profe']="1";
+			} else {
+				$(".panellTeacher").hide();
+				localStorage['profe']="0";
+			}
+		});
+	
+		$('#est').change(function() {
+			// this will contain a reference to the checkbox   
+			if (this.checked) {
+				// the checkbox is now checked
+				$(".panellStudent").show(); 
+				localStorage['alumne'] = "1";
+			} else {
+				$(".panellStudent").hide();
+				localStorage['alumne'] = "0";
+			}
+		});
+	
+		$("#organitza-aules").change(function(){
+			
+			if (localStorage['edita'] == "1") {
+				$(".desplaca-aula").addClass("off");
+				localStorage['edita'] = "0";
+			} else  {
+				$(".desplaca-aula").removeClass("off");
+				localStorage['edita'] = "1";
+	
+			}	
+		}); 
+	
+		$("#mostra-avisos").change(function(){
+			if (localStorage['avisos'] == "0") {			
+				$("#avisos").addClass("on");
+				$("#avisos").removeClass("off");
+				localStorage['avisos'] = "1";
+			} 
+			else  {
+				$("#avisos").addClass("off");
+				$("#avisos").removeClass("on");
+				localStorage['avisos'] = "0";
+			}
+		}); 
+	
+		$('.mostraTotes').click(function() {
+			$(".mostraDocent").removeClass('actiu');
+			$(".mostraEstudiant").removeClass('actiu');
+			$(".panellTeacher").show();
+			$(".panellStudent").show();
+			$(this).addClass("actiu");					
+		});
+	
+		$('.mostraDocent').click(function() {
+			$(".mostraTotes").removeClass('actiu');
+			$(".mostraEstudiant").removeClass('actiu');
+			$(".panellTeacher").show();					
+			$(".panellStudent").hide();
+			$(this).addClass('actiu');
+		});
+	
+	
+		$('.mostraEstudiant').click(function() {
+			$(".mostraTotes").removeClass('actiu');
+			$(".mostraDocent").removeClass('actiu');					
+			$(".panellTeacher").hide();
+			$(".panellStudent").show();
+			$(this).addClass('actiu');
+		});
+	
+		$('#vista-simplificada').click(function() {
+			$("#llistat-aules").addClass('vista-simplificada');
+			localStorage['vista'] = "llistat";
+		});
+	
+		$('#vista-completa').click(function() {
+			$("#llistat-aules").removeClass('vista-simplificada');
+			localStorage['vista'] = "caixes";		
+		});
+	
+		
+		   $('.activar-aula').click(function() {		
+			var idactivar = $(this).attr("id");
+			$("#aelements").attr("value",idactivar.replace(/a/gi,''));
+			var vista=$("body").attr("id");
+			$("#vista").attr("value",vista);
+			$("#formActiva").attr("action","execActivarAula.jsp");
+			$("#formActiva").submit();	
+			
+		});
+	
+		   $('.desactivar-aula').click(function() {		
+			var iddesactivar = $(this).attr("id");
+			$("#aelements").attr("value",iddesactivar.replace(/d/gi,''));
+			var vista=$("body").attr("id");
+			$("#vista").attr("value",vista);		
+			$("#formActiva").attr("action","execDesactivarAula.jsp");	
+			$("#formActiva").submit();	
+			
+		});
+	
+	
+		aplicavista(localStorage["vista"]);
+		aplicaedicio(localStorage["edita"]);
+		aplicaavisos(localStorage["avisos"]);
+	
+		var param = {
+			"niu": "1620066",
+			"ideds": "MO71836,MO68794,MO69238,MO69421,MO73011"
+		};
+	
+		var paramcvmoo = {
+			"niu": "1620066",
+			"ideds": "MO71985"
+		};
+	
+		var activitats = [
+			{key: "feedback", nom: "RetroacciÛ", nou:"nova",act:"actualitzada"},
+			{key: "lesson", nom: "LliÁÛ", nou:"nova",act:"actualitzada"},
+			{key: "assign", nom: "Tasca", nou:"nova",act:"actualitzada"},
+			{key: "choice", nom: "Consulta", nou:"nova",act:"actualitzada"},
+			{key: "choicegroup", nom: "ElecciÛ de grup", nom: "choicegroup", nou:"nova",act:"actualitzada"},
+			{key: "groupselect", nom: "Tria de grup", nou:"nova",act:"actualitzada"},
+			{key: "wiki", nom: "Wiki", nou:"nova",act:"actualitzada"},
+			{key: "data", nom: "Base de dades", nou:"nova",act:"actualitzada"},
+			{key: "folder", nom: "Carpeta", nou:"nova",act:"actualitzada"},
+			{key: "wooclap", nom: "Wooclap", nou:"nova",act:"actualitzada"},
+			{key: "page", nom: "P‡gina", nou:"nova",act:"actualitzada"},
+			{key: "attendance", nom: "AssistËncia", nou:"nova",act:"actualitzada"},
+			{key: "label", nom: "Etiqueta", nou:"nova",act:"actualitzada"},
+			{key: "url", nom: "URL", nou:"nova",act:"actualitzada"},
+			{key: "lti", nom: "Eina externa", nou:"nova",act:"actualitzada"},
+			{key: "scheduler", nom: "Agenda", nou:"nova",act:"actualitzada"},
+			{key: "kalvidassign", nom: "Tasca de vÌdeo de Kaltura",nou:"nova",act:"actualitzada"},
+			{key: "news", nom: "FÚrum d'anuncis", nou:"nou",act:"actualitzat"},
+			{key: "chat", nom: "Xat", nou:"nou",act:"actualitzat"},
+			{key: "forum", nom: "FÚrum", nou:"nou",act:"actualitzat"},
+			{key: "offlinequiz", nom: "Test Offline",nou:"nou",act:"actualitzat"},
+			{key: "hvp", nom: "Contingut interactiu", nou:"nou",act:"actualitzat"},
+			{key: "h5pactivity", nom: "H5P", nou:"nou",act:"actualitzat"},
+			{key: "activequiz", nom: "Q¸estionari interactiu", nou:"nou",act:"actualitzat"},
+			{key: "customcert", nom: "Certificat personalitzat", nou:"nou",act:"actualitzat"},
+			{key: "imscp", nom: "Paquet de contingut IMS", nou:"nou",act:"actualitzat"},
+			{key: "scorm", nom: "Paquet SCORM", nou:"nou",act:"actualitzat"},
+			{key: "quiz", nom: "Q¸estionari", nou:"nou",act:"actualitzat"},
+			{key: "workshop", nom: "Taller", nou:"nou",act:"actualitzat"},
+			{key: "resource", nom: "Fitxer", nou:"nou",act:"actualitzat"},
+			{key: "book", nom: "Llibre", nou:"nou",act:"actualitzat"},
+			{key: "glossary", nom: "Glossari", nou:"nou",act:"actualitzat"},
+			{key: "jazzquiz", nom: "JazzQuiz", nou:"nou",act:"actualitzat"},
+			{key: "kalvidres", nom: "Recurs de vÌdeo de Kaltura", nou:"nou",act:"actualitzat"}
+		]
+	
+		$.ajax({
+			type: 'post',
+			dataType: 'json',
+			url: 'https://e-aules.uab.cat/2024-25/apsi/novetats.php',
+			data: param,
+			success: function(data) { 
+				var items = [];
+	
+				$.each( data, function( key, val ) {
+					var novetats = 0;
+					if (val.curs_existeix == '0')
+					{
+						$("#n"+val.ided).html("<p style='height:75px;'>No hi ha dades a mostrar. Contacteu amb el CAS (Centre d'AssistËncia i Suport) <a href='mailto:cas@uab.cat'>cas@uab.cat</a>.</p>");
+					}
+	
+					if (val.curs_existeix == '1' && val.inscrit == '0')
+					{
+						$("#p"+val.ided ).html("<p style='height:75px;'>Les novetats es mostraran a partir que accediu per primer cop a l'aula.</p>");
+					} 
+					if (val.curs_existeix == '1' && val.inscrit == '1')
+					{					
+						if(val.events_num>0) { 
+							novetats=1;
+							$("#n"+val.ided).html("<li><a href='' target='_blank' id='esde_ref"+val.ided+"'>Esdeveniments propers</a> <span class='etiqueta positiu' id='n_esde"+val.ided+"'></span></li>");						
+						}	
+						if(val.events_num==0) {
+							$("#n"+val.ided).html("<li><a href='' target='_blank' id='esde_ref"+val.ided+"'>Esdeveniments propers</a> <span class='etiqueta negatiu' id='n_esde"+val.ided+"'></span></li>");
+						}
+						$("#n_esde"+val.ided).html(val.events_num+" "+"nous" );									    
+						$("#esde_ref"+val.ided).attr( 'href', val.events_url );
+	
+						if($("#n"+val.ided).attr('tipus')=='Standardold')
+						{
+							if (val.activitats_numero>0) {
+								$("#n"+val.ided).append("<li class='novetats-material' id='m"+val.ided+"'><a title='Feu clic per veure i accedir als ˙ltims 5 elements publicats o modificats'>Material i activitats</a><button type='button' id='nou-material-boto-A"+val.ided+"' class='boto petit invertit' data-component='dropdown' data-target='ma"+val.ided+"' >"+val.activitats_numero+" nous<svg focusable='false' aria-hidden='true' viewbox='0 0 24 24' class='icona dropdown'><use href='img/icones.svg#icona-dropdown'></use></svg></button></li>");
+								novetats=1;
+							}
+							if (val.activitats_numero==0) {
+								$("#n"+val.ided).append("<li class='novetats-material' id='m"+val.ided+"'><a href='javascript:void(0);'>Material i activitats<span class='etiqueta negatiu'> 0 nous</span></a></li>");
+							}
+	
+							$("#m"+val.ided).append("<ul id='ma"+val.ided+"' class='desplegable' aria-hidden='true'>");										
+							$.each( val.modules, function( key, modul ) {
+	
+								var nom=" ";	
+								var nou="nou";
+								var act="actualitzat";
+								$.each(activitats, function() { 
+									 if(this.key === modul.tipus){ 
+										   nom=this.nom; 
+										nou=this.nou; 
+										act=this.act;							     
+									 } 
+								}); 
+	
+								if (modul.estat=='updated') { $("#ma"+val.ided).append("<li data-item><a class='desplegable-item "+modul.tipus+"' data-focus href='"+modul.url+"' target='_blank'><span class='actualitzat'>"+nom+" "+act+"</span> "+modul.nom+"</a></li>");	}
+								if (modul.estat=='new')     { $("#ma"+val.ided).append("<li data-item><a class='desplegable-item "+modul.tipus+"' data-focus href='"+modul.url+"' target='_blank'><span class='nou'>"+nom+" "+nou+"</span> "+modul.nom+"</a></li>");	}
+							});
+							
+							if (val.activitats_numero>5) {
+								$("#ma"+val.ided).append("<li data-item><a class='desplegable-item accedir-aula' data-focus href='https://e-aules.uab.cat/2024-25/course/view.php?idnumber="+val.ided+"' target='_blank'><svg focusable='false' aria-hidden='true' viewbox='0 0 24 24' class='icona ves'><use href='img/icones.svg#icona-ves'></use></svg>Accedir a l'aula<span class='sr-only'>"+val.ided+"</span></a></li>");
+							}
+	
+						}	
+	
+						if($("#n"+val.ided).attr('tipus')=='NoUsers')
+						{
+							if (val.activitats_numero>0) {
+								$("#n"+val.ided).append("<li class='novetats-material' id='m"+val.ided+"'><a title='Feu clic per veure i accedir als ˙ltims 5 elements publicats o modificats'>Material i activitats</a>	<button type='button' id='nou-material-boto-A"+val.ided+"' class='boto petit invertit' data-component='dropdown' data-target='ma"+val.ided+"' >"+val.activitats_numero+" nous<svg focusable='false' aria-hidden='true' viewbox='0 0 24 24' class='icona dropdown'><use href='img/icones.svg#icona-dropdown'></use></svg></button></li>");
+								novetats=1;
+							}
+							if (val.activitats_numero==0) {
+								$("#n"+val.ided).append("<li class='novetats-material' id='m"+val.ided+"'><a href='javascript:void(0);'>Documents<span class='etiqueta negatiu'> 0 nous</span></a></li>");
+							}
+	
+							$("#m"+val.ided).append("<ul id='ma"+val.ided+"' class='desplegable' aria-hidden='true'>");										
+							$.each( val.modules, function( key, modul ) {
+	
+								var nom=" ";	
+								var nou="nou";
+								var act="actualitzat";
+								$.each(activitats, function() { 
+									 if(this.key === modul.tipus){ 
+										   nom=this.nom; 
+										nou=this.nou; 
+										act=this.act;							     
+									 } 
+								}); 
+	
+								if (modul.estat=='updated') { $("#ma"+val.ided).append("<li data-item><a class='desplegable-item "+modul.tipus+"' data-focus href='"+modul.url+"' target='_blank'><span class='actualitzat'>"+nom+" "+act+"</span> "+modul.nom+"</a></li>");	}
+								if (modul.estat=='new')     { $("#ma"+val.ided).append("<li data-item><a class='desplegable-item "+modul.tipus+"' data-focus href='"+modul.url+"' target='_blank'><span class='nou'>"+nom+" "+nou+"</span> "+modul.nom+"</a></li>");	}
+							});
+	
+							if (val.activitats_numero>5) {
+								$("#ma"+val.ided).append("<li data-item><a class='desplegable-item accedir-aula' data-focus href='https://e-aules.uab.cat/2024-25/course/view.php?idnumber="+val.ided+"' target='_blank'><svg focusable='false' aria-hidden='true' viewbox='0 0 24 24' class='icona ves'><use href='img/icones.svg#icona-ves'></use></svg>Accedir a l'aula<span class='sr-only'>"+val.ided+"</span></a></li>");
+							}  	
+						}		
+	
+						if (val.noticies_numeroda =='0')
+						{
+							$("#n"+val.ided).append("<li><a href="+val.noticies_url+" target='_blank'>Avisos i notÌcies</a><span class='etiqueta negatiu'>"+val.noticies_numeroda+" nous</span></li>");									     	
+						}
+						else
+						{
+							novetats=1;
+							if ( val.noticies_existeix == '1' && val.noticies_numeronl == '-1') {					
+								$("#n"+val.ided).append("<li><a href="+val.noticies_url+" target='_blank'>Avisos i notÌcies</a><span class='etiqueta positiu'>"+val.noticies_numeroda+" nous</span></li>");							
+							}
+							else {
+								$("#n"+val.ided).append("<li><a href="+val.noticies_url+" target='_blank'>Avisos i notÌcies</a><span class='etiqueta positiu'>"+val.noticies_numeroda+" nous, "+val.noticies_numeronl+" No llegits</span></li>");
+							}
+						}
+	
+						if (novetats==1) {
+							//$("#"+val.ided).parent().parent().find("h3").addClass("novetats tooltip");
+							//$("#"+val.ided).parent().parent().find("h3").attr("title","Hi ha novetats!");
+						}
+					} // if
+				}); // $.each
+				aaaaa(this);
+			}						
+		});
+	
+		$.ajax({
+			type: 'post',
+			dataType: 'json',
+			url: 'https://e-aulesi.uab.cat/2024-25/apsi/novetats.php',
+			data: paramcvmoo,
+			success: function(data) { 
+				var items = [];
+	
+				$.each( data, function( key, val ) {
+					var novetats = 0;
+					if (val.curs_existeix == '0')
+					{
+						$("#n"+val.ided).html("<p style='height:75px;'>No hi ha dades a mostrar. Contacteu amb el CAS (Centre d'AssistËncia i Suport) <a href='mailto:cas@uab.cat'>cas@uab.cat</a>.</p>");
+					}
+	
+					if (val.curs_existeix == '1' && val.inscrit == '0')
+					{
+						$("#p"+val.ided ).html("<p style='height:75px;'>Les novetats es mostraran a partir que accediu per primer cop a l'aula.</p>");
+					} 
+					if (val.curs_existeix == '1' && val.inscrit == '1')
+					{					
+						if(val.events_num>0) { 
+							novetats=1;
+							$("#n"+val.ided).html("<li><a href='' target='_blank' id='esde_ref"+val.ided+"'>Esdeveniments propers</a> <span class='etiqueta positiu' id='n_esde"+val.ided+"'></span></li>");						
+						}	
+						if(val.events_num==0) {
+							$("#n"+val.ided).html("<li><a href='' target='_blank' id='esde_ref"+val.ided+"'>Esdeveniments propers</a> <span class='etiqueta negatiu' id='n_esde"+val.ided+"'></span></li>");
+						}
+						$("#n_esde"+val.ided).html(val.events_num+" "+"nous" );									    
+						$("#esde_ref"+val.ided).attr( 'href', val.events_url );
+	
+						if($("#n"+val.ided).attr('tipus')=='Standardold')
+						{
+							if (val.activitats_numero>0) {
+								$("#n"+val.ided).append("<li class='novetats-material' id='m"+val.ided+"'><a title='Feu clic per veure i accedir als ˙ltims 5 elements publicats o modificats'>Material i activitats</a><button type='button' id='nou-material-boto-A"+val.ided+"' class='boto petit invertit' data-component='dropdown' data-target='ma"+val.ided+"' >"+val.activitats_numero+" nous<svg focusable='false' aria-hidden='true' viewbox='0 0 24 24' class='icona dropdown'><use href='img/icones.svg#icona-dropdown'></use></svg></button></li>");
+								novetats=1;
+							}
+							if (val.activitats_numero==0) {
+								$("#n"+val.ided).append("<li class='novetats-material' id='m"+val.ided+"'><a href='javascript:void(0);'>Material i activitats<span class='etiqueta negatiu'> 0 nous</span></a></li>");
+							}
+	
+							$("#m"+val.ided).append("<ul id='ma"+val.ided+"' class='desplegable' aria-hidden='true'>");										
+							$.each( val.modules, function( key, modul ) {
+	
+								var nom=" ";	
+								var nou="nou";
+								var act="actualitzat";
+								$.each(activitats, function() { 
+									 if(this.key === modul.tipus){ 
+										   nom=this.nom; 
+										nou=this.nou; 
+										act=this.act;							     
+									 } 
+								}); 
+	
+								if (modul.estat=='updated') { $("#ma"+val.ided).append("<li data-item><a class='desplegable-item "+modul.tipus+"' data-focus href='"+modul.url+"' target='_blank'><span class='actualitzat'>"+nom+" "+act+"</span> "+modul.nom+"</a></li>");	}
+								if (modul.estat=='new')     { $("#ma"+val.ided).append("<li data-item><a class='desplegable-item "+modul.tipus+"' data-focus href='"+modul.url+"' target='_blank'><span class='nou'>"+nom+" "+nou+"</span> "+modul.nom+"</a></li>");	}
+							});
+							
+							if (val.activitats_numero>5) {
+								$("#ma"+val.ided).append("<li data-item><a class='desplegable-item accedir-aula' data-focus href='https://e-aulesi.uab.cat/2024-25/course/view.php?idnumber="+val.ided+"' target='_blank'><svg focusable='false' aria-hidden='true' viewbox='0 0 24 24' class='icona ves'><use href='img/icones.svg#icona-ves'></use></svg>Accedir a l'aula<span class='sr-only'>"+val.ided+"</span></a></li>");
+							}
+	
+						}	
+	
+						if($("#n"+val.ided).attr('tipus')=='NoUsers')
+						{
+							if (val.activitats_numero>0) {
+								$("#n"+val.ided).append("<li class='novetats-material' id='m"+val.ided+"'><a title='Feu clic per veure i accedir als ˙ltims 5 elements publicats o modificats'>Material i activitats</a>	<button type='button' id='nou-material-boto-A"+val.ided+"' class='boto petit invertit' data-component='dropdown' data-target='ma"+val.ided+"' >"+val.activitats_numero+" nous<svg focusable='false' aria-hidden='true' viewbox='0 0 24 24' class='icona dropdown'><use href='img/icones.svg#icona-dropdown'></use></svg></button></li>");
+								novetats=1;
+							}
+							if (val.activitats_numero==0) {
+								$("#n"+val.ided).append("<li class='novetats-material' id='m"+val.ided+"'><a href='javascript:void(0);'>Documents<span class='etiqueta negatiu'> 0 nous</span></a></li>");
+							}
+	
+							$("#m"+val.ided).append("<ul id='ma"+val.ided+"' class='desplegable' aria-hidden='true'>");										
+							$.each( val.modules, function( key, modul ) {
+	
+								var nom=" ";	
+								var nou="nou";
+								var act="actualitzat";
+								$.each(activitats, function() { 
+									 if(this.key === modul.tipus){ 
+										   nom=this.nom; 
+										nou=this.nou; 
+										act=this.act;							     
+									 } 
+								}); 
+	
+								if (modul.estat=='updated') { $("#ma"+val.ided).append("<li data-item><a class='desplegable-item "+modul.tipus+"' data-focus href='"+modul.url+"' target='_blank'><span class='actualitzat'>"+nom+" "+act+"</span> "+modul.nom+"</a></li>");	}
+								if (modul.estat=='new')     { $("#ma"+val.ided).append("<li data-item><a class='desplegable-item "+modul.tipus+"' data-focus href='"+modul.url+"' target='_blank'><span class='nou'>"+nom+" "+nou+"</span> "+modul.nom+"</a></li>");	}
+							});
+	
+							if (val.activitats_numero>5) {
+								$("#ma"+val.ided).append("<li data-item><a class='desplegable-item accedir-aula' data-focus href='https://e-aulesi.uab.cat/2024-25/course/view.php?idnumber="+val.ided+"' target='_blank'><svg focusable='false' aria-hidden='true' viewbox='0 0 24 24' class='icona ves'><use href='img/icones.svg#icona-ves'></use></svg>Accedir a l'aula<span class='sr-only'>"+val.ided+"</span></a></li>");
+							}  	
+						}		
+	
+						if (val.noticies_numeroda =='0')
+						{
+							$("#n"+val.ided).append("<li><a href="+val.noticies_url+" target='_blank'>Avisos i notÌcies</a><span class='etiqueta negatiu'>"+val.noticies_numeroda+" nous</span></li>");									     	
+						}
+						else
+						{
+							novetats=1;
+							if ( val.noticies_existeix == '1' && val.noticies_numeronl == '-1') {					
+								$("#n"+val.ided).append("<li><a href="+val.noticies_url+" target='_blank'>Avisos i notÌcies</a><span class='etiqueta positiu'>"+val.noticies_numeroda+" nous</span></li>");							
+							}
+							else {
+								$("#n"+val.ided).append("<li><a href="+val.noticies_url+" target='_blank'>Avisos i notÌcies</a><span class='etiqueta positiu'>"+val.noticies_numeroda+" nous, "+val.noticies_numeronl+" No llegits</span></li>");
+							}
+						}
+	
+						if (novetats==1) {
+							//$("#"+val.ided).parent().parent().find("h3").addClass("novetats tooltip");
+							//$("#"+val.ided).parent().parent().find("h3").attr("title","Hi ha novetats!");
+						}
+					} // if
+				}); // $.each
+				aaaaa(this);
+			}						
+		});
+	});
+
+	</script>8◊ç≥ÖP           gX\Gn'úgXA   L    O^partitionKey=%28https%2Cuab.cat%29,:https://cv.uab.cat/protected/index.jsp strongly-framed 1 security-info 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 request-method GET response-head HTTP/1.1 200 200
+Date: Mon, 14 Oct 2024 17:43:28 GMT
+Server: Apache
+Content-Type: text/html;charset=ISO-8859-1
+Content-Language: ca
+Strict-Transport-Security: max-age= 31536000
+X-FRAME-OPTIONS: SAMEORIGIN
+ original-response-headers Date: Mon, 14 Oct 2024 17:43:28 GMT
+Server: Apache
+Content-Type: text/html;charset=ISO-8859-1
+Content-Language: ca
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Strict-Transport-Security: max-age= 31536000
+X-FRAME-OPTIONS: SAMEORIGIN
+ ctid 1 uncompressed-len 0 net-response-time-onstart 1288 net-response-time-onstop 1648  7N

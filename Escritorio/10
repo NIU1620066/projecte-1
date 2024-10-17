@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo introdueix una paraula
+read paraula
+for  i in `seq 1 10`
+do
+	echo $paraula
+	
+done

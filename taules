@@ -1,0 +1,15 @@
+#!/bin/bash
+echo MENU
+echo 1-Calcular la mitjana de la edat dels esportistes
+echo 2-llistat de tots els esportistes dun club
+echo 3-llistat de tots els esportistes 
+echo 4-Sortir
+read opcio
+while [$opcio -ne 4 ]
+case $opcio in
+(1) bash script.sh;;------un script
+(2) bash script...
+(*) echo error
+esac
+done
+

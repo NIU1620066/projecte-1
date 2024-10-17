@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo introdueix un nombre enter
+read nombre
+if [ $nombre -gt 0 ]
+then
+	echo el nombre es positiu
+else
+if [ $nombre -eq 0 ]
+then
+	echo el nombe es 0
+else
+ echo el nombre es negatiu
+ 
+fi

@@ -1,0 +1,8 @@
+#!/bin/bash
+clear
+echo "Ponga palabra"
+read palabra
+for i in `seq 1 10`
+do 
+	echo $i $palabra
+done

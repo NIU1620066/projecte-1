@@ -1,0 +1,7 @@
+# This file is created by ibus-daemon, please do not modify it.
+# This file allows processes on the machine to find the
+# ibus session bus with the below address.
+# If the IBUS_ADDRESS environment variable is set, it will
+# be used rather than this file.
+IBUS_ADDRESS=unix:path=/home/nilito/.cache/ibus/dbus-ytIUinvh,guid=ed1cd22cdd951790f747e80c6710e8b0
+IBUS_DAEMON_PID=2017

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/nilito/datos3.txt" added="2024-09-18T10:03:49.456492Z" modified="2024-10-14T17:41:04.270009Z" visited="2024-10-14T19:41:02.902574+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.270009Z" count="402"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/text2" added="2024-09-18T10:29:17.082927Z" modified="2024-10-14T17:41:04.269991Z" visited="2024-10-14T19:41:02.902941+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.269991Z" count="396"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/datos1.txt" added="2024-09-19T13:14:43.563823Z" modified="2024-10-14T17:41:04.270001Z" visited="2024-10-14T19:41:02.977543+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.270001Z" count="394"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/file2" added="2024-09-23T10:57:53.448185Z" modified="2024-10-14T17:41:04.270000Z" visited="2024-10-14T19:41:02.977865+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.270000Z" count="386"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/datos.txt" added="2024-09-29T19:57:25.926178Z" modified="2024-10-14T17:41:04.270010Z" visited="2024-10-14T19:41:02.978167+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.270010Z" count="384"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/esportistes" added="2024-09-29T19:57:34.947747Z" modified="2024-10-14T17:41:04.269980Z" visited="2024-10-14T19:41:02.978899+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.269978Z" count="381"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/exemples" added="2024-09-29T19:57:44.940482Z" modified="2024-10-14T17:41:04.269985Z" visited="2024-10-14T19:41:02.979224+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.269985Z" count="379"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/llistat_dev" added="2024-09-29T19:57:54.930164Z" modified="2024-10-14T17:41:04.270004Z" visited="2024-10-14T19:41:02.979574+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.270004Z" count="375"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/menor-major.sh" added="2024-09-29T19:58:06.717253Z" modified="2024-10-14T17:41:04.270008Z" visited="2024-10-14T19:41:02.980264+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.270008Z" count="373"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/miscript.sh" added="2024-09-29T19:58:10.671330Z" modified="2024-10-14T17:41:04.269993Z" visited="2024-10-14T19:41:02.938645+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.269992Z" count="372"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/pepito.txt" added="2024-09-29T19:58:14.962778Z" modified="2024-10-14T17:41:04.269991Z" visited="2024-10-14T19:41:02.939144+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.269990Z" count="371"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/ex4" added="2024-09-30T16:25:34.448036Z" modified="2024-10-14T17:41:04.269989Z" visited="2024-10-14T19:41:02.953158+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.269989Z" count="368"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/ex3" added="2024-09-30T17:13:34.425004Z" modified="2024-10-14T17:41:04.270012Z" visited="2024-10-14T19:41:02.957591+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.270011Z" count="285"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/factorial.sh" added="2024-10-07T16:34:29.589283Z" modified="2024-10-14T17:41:04.270014Z" visited="2024-10-14T19:41:02.981039+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.270014Z" count="357"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/convinatori.sh" added="2024-10-07T16:49:25.581152Z" modified="2024-10-14T17:41:04.269986Z" visited="2024-10-14T19:41:02.953932+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.269986Z" count="352"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/unidos" added="2024-10-13T11:26:25.981448Z" modified="2024-10-14T17:41:04.270003Z" visited="2024-10-14T19:41:02.954303+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.270003Z" count="348"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/unidos.sh" added="2024-10-13T11:57:00.298178Z" modified="2024-10-14T17:41:04.269994Z" visited="2024-10-14T19:41:02.955205+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.269993Z" count="342"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/positiu" added="2024-10-13T16:23:11.822031Z" modified="2024-10-14T17:41:04.270007Z" visited="2024-10-14T19:41:02.956123+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.270007Z" count="326"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/q" added="2024-10-13T18:21:55.610552Z" modified="2024-10-14T17:41:04.269982Z" visited="2024-10-14T19:41:02.956898+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.269981Z" count="318"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/calculadora.sh" added="2024-10-13T21:23:22.093269Z" modified="2024-10-14T17:41:04.270002Z" visited="2024-10-14T19:41:02.958266+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.270002Z" count="282"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/combinatori.sh" added="2024-10-13T21:23:31.081979Z" modified="2024-10-14T17:41:04.270006Z" visited="2024-10-14T19:41:02.959081+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.270006Z" count="281"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/examen" added="2024-10-13T21:23:37.100383Z" modified="2024-10-14T17:41:04.269997Z" visited="2024-10-14T19:41:02.959757+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.269997Z" count="280"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/filtrarclub.sh" added="2024-10-13T21:23:50.093010Z" modified="2024-10-14T17:41:04.269988Z" visited="2024-10-14T19:41:02.960393+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.269987Z" count="279"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/miscriptt.sh" added="2024-10-13T21:24:04.091091Z" modified="2024-10-14T17:41:04.270013Z" visited="2024-10-14T19:41:02.972217+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.270013Z" count="278"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/script" added="2024-10-13T21:24:11.078719Z" modified="2024-10-14T17:41:04.269999Z" visited="2024-10-14T19:41:02.973221+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.269998Z" count="276"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/script1.sh" added="2024-10-13T21:24:15.083441Z" modified="2024-10-14T17:41:04.269996Z" visited="2024-10-14T19:41:02.974299+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.269996Z" count="275"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/taules" added="2024-10-13T21:24:19.076643Z" modified="2024-10-14T17:41:04.269984Z" visited="2024-10-14T19:41:02.975288+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.269984Z" count="274"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/taules.sh" added="2024-10-13T21:24:32.084482Z" modified="2024-10-14T17:41:04.269983Z" visited="2024-10-14T19:41:02.975990+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.269983Z" count="273"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/menu" added="2024-10-14T09:43:57.983075Z" modified="2024-10-14T15:06:12.262142Z" visited="2024-10-14T16:41:36.322950+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T15:06:12.262142Z" count="37"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/lliurament2.sh" added="2024-10-14T17:28:16.328805Z" modified="2024-10-14T17:41:04.269995Z" visited="2024-10-14T19:41:02.977029+02">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-14T17:41:04.269994Z" count="34"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

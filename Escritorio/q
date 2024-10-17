@@ -1,0 +1,17 @@
+#!/bin/bash
+
+echo introdueix una paruala
+read paraula
+
+while   [ $paraula != q ]
+do 
+	echo $paraula >> problemano 
+	sort problemano > PROBLEMAQ
+	cat PROBLEMAQ > problemano
+
+
+
+done
+
+
+

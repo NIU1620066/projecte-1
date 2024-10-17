@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///media/nilito/VBox_GAs_7.1.0" added="2024-09-16T14:44:30.257702Z" modified="2024-09-16T15:52:08.750006Z" visited="2024-09-16T14:44:30.257703Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;nautilus-autorun-software %u&apos;" modified="2024-09-16T15:52:08.750006Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/datos3.txt" added="2024-09-16T16:54:35.426470Z" modified="2024-09-29T19:57:27.066433Z" visited="2024-09-16T16:54:35.426470Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-23T10:56:42.509622Z" count="3"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-09-29T19:57:27.066428Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/dl" added="2024-09-16T16:55:14.008319Z" modified="2024-09-16T16:55:14.008321Z" visited="2024-09-16T16:55:14.008319Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-16T16:55:14.008320Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio" added="2024-09-17T22:10:15.845872Z" modified="2024-09-17T22:10:15.848701Z" visited="2024-09-17T22:10:15.845872Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-09-17T22:10:15.848698Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/file2" added="2024-09-18T10:10:57.794642Z" modified="2024-09-29T19:57:46.594615Z" visited="2024-09-18T10:10:57.794642Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-09-29T19:57:46.594611Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/text" added="2024-09-18T10:28:19.510871Z" modified="2024-09-29T15:36:17.751214Z" visited="2024-09-18T10:28:19.510872Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-29T15:36:17.751211Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/text2" added="2024-09-18T10:29:13.451745Z" modified="2024-09-22T17:54:59.217089Z" visited="2024-09-18T10:29:13.451746Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-09-18T10:29:13.451746Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-22T17:54:59.217087Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/datos1.txt" added="2024-09-19T13:04:59.832120Z" modified="2024-09-19T13:04:59.832123Z" visited="2024-09-19T13:04:59.832120Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-19T13:04:59.832122Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/pepito.txt" added="2024-09-19T13:50:41.389866Z" modified="2024-09-29T19:58:12.002346Z" visited="2024-09-19T13:50:41.389866Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-19T13:53:40.335212Z" count="2"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-09-29T19:58:12.002339Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/text1" added="2024-09-22T17:54:24.647048Z" modified="2024-09-22T17:54:24.647052Z" visited="2024-09-22T17:54:24.647049Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-22T17:54:24.647050Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/miscript.sh" added="2024-09-26T13:11:36.188592Z" modified="2024-10-13T21:23:56.765466Z" visited="2024-09-26T13:11:36.188593Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-26T13:11:36.188595Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-10-13T21:23:56.765462Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/esportistes" added="2024-09-26T14:27:18.958169Z" modified="2024-09-29T19:57:31.703892Z" visited="2024-09-26T14:27:18.958170Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-26T14:29:26.412482Z" count="3"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-09-29T19:57:31.703886Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/menor-major.sh" added="2024-09-26T14:44:33.673441Z" modified="2024-10-13T21:23:52.670572Z" visited="2024-09-26T14:44:33.673442Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-26T14:44:33.673444Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-10-13T21:23:52.670567Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/datos.txt" added="2024-09-29T17:30:37.540549Z" modified="2024-09-29T19:57:21.861199Z" visited="2024-09-29T17:30:37.540549Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-29T17:30:40.270919Z" count="2"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-09-29T19:57:21.861198Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/exemples" added="2024-09-29T19:57:41.722432Z" modified="2024-09-29T19:57:41.722436Z" visited="2024-09-29T19:57:41.722433Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-09-29T19:57:41.722434Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/llistat_dev" added="2024-09-29T19:57:51.425382Z" modified="2024-09-29T19:57:51.425386Z" visited="2024-09-29T19:57:51.425383Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-09-29T19:57:51.425384Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/datoos" added="2024-09-29T20:06:36.437806Z" modified="2024-09-30T09:36:50.160072Z" visited="2024-09-29T20:06:36.437807Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-30T09:36:50.160069Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/ex3" added="2024-09-30T16:09:53.758674Z" modified="2024-09-30T16:10:17.677483Z" visited="2024-09-30T16:09:53.758674Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-30T16:10:17.677480Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/ex4" added="2024-09-30T16:11:53.709800Z" modified="2024-09-30T16:24:41.452734Z" visited="2024-09-30T16:11:53.709800Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-30T16:24:41.452731Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/calculadora.sh" added="2024-09-30T16:54:27.488169Z" modified="2024-10-13T21:23:18.427698Z" visited="2024-09-30T16:54:27.488170Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-30T16:56:31.703344Z" count="5"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-10-13T21:23:18.427697Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20desde%202024-09-30%2018-56-56.png" added="2024-09-30T16:56:56.236353Z" modified="2024-09-30T16:56:56.236357Z" visited="2024-09-30T16:56:56.236354Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2024-09-30T16:56:56.236354Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/examen" added="2024-09-30T17:06:01.369018Z" modified="2024-10-13T21:23:33.836307Z" visited="2024-09-30T17:06:01.369018Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-09-30T17:29:27.126556Z" count="5"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-10-13T21:23:33.836301Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/funcio.sh" added="2024-10-03T13:41:30.978738Z" modified="2024-10-03T13:41:30.978742Z" visited="2024-10-03T13:41:30.978739Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-03T13:41:30.978740Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/script1.sh" added="2024-10-03T13:54:53.781540Z" modified="2024-10-13T21:24:11.697013Z" visited="2024-10-03T13:54:53.781541Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-03T14:05:00.498652Z" count="8"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-10-13T21:24:11.697007Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/script" added="2024-10-03T14:14:59.531955Z" modified="2024-10-13T21:24:07.117124Z" visited="2024-10-03T14:14:59.531956Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-03T14:22:07.519820Z" count="8"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-10-13T21:24:07.117118Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/script" added="2024-10-07T16:19:03.546425Z" modified="2024-10-07T16:19:03.546430Z" visited="2024-10-07T16:19:03.546426Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-07T16:19:03.546428Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/factorial.sh" added="2024-10-07T16:30:00.356287Z" modified="2024-10-07T16:39:15.260368Z" visited="2024-10-07T16:30:00.356288Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-07T16:39:15.260366Z" count="10"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/convinatori.sh" added="2024-10-07T16:34:52.547487Z" modified="2024-10-07T16:51:33.820190Z" visited="2024-10-07T16:34:52.547488Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-07T16:51:33.820188Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/combinatori.sh" added="2024-10-07T16:43:26.764979Z" modified="2024-10-13T21:23:27.523186Z" visited="2024-10-07T16:43:26.764980Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-07T17:00:16.117329Z" count="4"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-10-13T21:23:27.523179Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/taules.sh" added="2024-10-07T17:12:54.109584Z" modified="2024-10-13T21:24:28.974739Z" visited="2024-10-07T17:12:54.109585Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-07T17:12:54.109586Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-10-13T21:24:28.974732Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/filtrarclub.sh" added="2024-10-07T17:34:24.845454Z" modified="2024-10-13T21:23:47.068746Z" visited="2024-10-07T17:34:24.845455Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-07T17:34:28.657506Z" count="2"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-10-13T21:23:47.068739Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/taules" added="2024-10-10T06:50:55.831502Z" modified="2024-10-13T21:24:15.629882Z" visited="2024-10-10T06:50:55.831503Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-10T07:09:58.664742Z" count="2"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-10-13T21:24:15.629874Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/unidos" added="2024-10-13T11:10:37.319089Z" modified="2024-10-13T11:10:37.319093Z" visited="2024-10-13T11:10:37.319090Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-13T11:10:37.319091Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/unidos.sh" added="2024-10-13T11:15:50.923486Z" modified="2024-10-13T16:12:59.744507Z" visited="2024-10-13T11:15:50.923487Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-13T16:12:59.744504Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/dos" added="2024-10-13T11:39:41.729358Z" modified="2024-10-13T11:41:03.819994Z" visited="2024-10-13T11:39:41.729359Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-zerosize"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-13T11:41:03.819991Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/unidos.sh" added="2024-10-13T11:56:10.714725Z" modified="2024-10-13T11:58:16.175032Z" visited="2024-10-13T11:56:10.714726Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-13T11:58:16.175029Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/positiu" added="2024-10-13T16:18:19.007116Z" modified="2024-10-13T17:34:22.408252Z" visited="2024-10-13T16:18:19.007117Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-13T17:34:22.408250Z" count="10"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/10" added="2024-10-13T17:41:43.716066Z" modified="2024-10-13T17:48:25.963388Z" visited="2024-10-13T17:41:43.716067Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-13T17:48:25.963385Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/q" added="2024-10-13T18:05:14.043434Z" modified="2024-10-13T18:18:33.940124Z" visited="2024-10-13T18:05:14.043434Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-13T18:18:33.940122Z" count="15"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/q" added="2024-10-13T18:21:23.142835Z" modified="2024-10-13T18:21:23.142839Z" visited="2024-10-13T18:21:23.142836Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-13T18:21:23.142837Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/miscriptt.sh" added="2024-10-13T21:21:16.594687Z" modified="2024-10-13T21:24:00.497666Z" visited="2024-10-13T21:21:16.594688Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-13T21:21:16.594690Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-10-13T21:24:00.497659Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Escritorio/menu" added="2024-10-14T09:41:50.769604Z" modified="2024-10-14T09:42:44.297119Z" visited="2024-10-14T09:41:50.769604Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-14T09:42:44.297117Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/lliurament2.sh" added="2024-10-14T12:23:12.523038Z" modified="2024-10-14T17:41:00.991619Z" visited="2024-10-14T12:23:12.523038Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2024-10-14T17:03:15.918528Z" count="4"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-10-14T17:41:00.991615Z" count="19"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/hola.sh" added="2024-10-14T16:02:50.625353Z" modified="2024-10-14T17:02:20.900739Z" visited="2024-10-14T16:02:50.625354Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-10-14T17:02:20.900736Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/nilito/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20desde%202024-10-14%2019-41-40.png" added="2024-10-14T17:41:40.292783Z" modified="2024-10-14T17:46:16.725609Z" visited="2024-10-14T17:41:40.292785Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gnome-shell" exec="&apos;gio open %u&apos;" modified="2024-10-14T17:41:40.292786Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2024-10-14T17:42:11.622337Z" count="1"/>
+          <bookmark:application name="snap.firefox" exec="&apos;gio open %u&apos;" modified="2024-10-14T17:46:16.707930Z" count="1"/>
+          <bookmark:application name="xdg-desktop-portal-gnome" exec="&apos;xdg-desktop-portal-gnome %u&apos;" modified="2024-10-14T17:46:16.725605Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

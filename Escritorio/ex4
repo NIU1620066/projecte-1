@@ -1,0 +1,13 @@
+#!/bin/bash
+clear
+echo Escriu paraula
+read paraula
+while [ $paraula != "q" ]
+do
+	echo $paraula >> fitxer 
+	sort -d fitxer > temporal
+	mv temporal fitxer
+	echo escriu paraula
+	read paraula
+done
+

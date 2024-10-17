@@ -1,0 +1,41 @@
+#!/bin/bash
+rm paraules
+echo Nil Vázquez Tarjuelo
+cat /etc/passwd > dades.txt
+
+t=$1
+m=tail +10 dades.txt | head -$t | cat >> temporal
+	
+	for i in $t+10 
+	do
+	contador_de_paraules=$(cat $m -d: -f1- | wc -w)
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+for i in {1..7}; do
+    contador_de_caracters=$(echo "$linea" | cut -d: -f"$i" | wc -c)
+    	resultat="$contador_de_caracters:"
+	echo "$resultat" >> paraules
+done
+done
+cat paraules
+
+
+

@@ -1,0 +1,16 @@
+#!/bin/bash
+lin= `wc -l <esportistes>`
+suma=0
+i=1
+while [$i -le $lin]
+do 	
+	edat=`head -$i esportistes||tail -1||cut -d: -f4`
+	let suma =$edat +$suma
+	let i=i+1
+done
+let mitja1=$suma/$lin
+echo $mitja1
+let mitja2= `bc <<<"scale=2;$suma/$lin"`
+echo $mitja2
+	
+												

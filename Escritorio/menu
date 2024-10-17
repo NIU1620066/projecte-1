@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "Introdueix una posicio entre 1 i 3"
+read numero
+
+case $numero in
+1)
+	echo "Ets el primer en arribar";;
+2)
+	echo "Subcampió de la temporada";;
+3)
+	echo "A la tercera va la vençuda";;
+*)
+	echo "Resposta no valida";;
+esac
